@@ -9,9 +9,9 @@ import io
 # Database connection
 def get_db_connection():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="9698",
+        host="app",
+        user="app",
+        password="qwEr!@#$09",
         database="employee_management"
     )
 
