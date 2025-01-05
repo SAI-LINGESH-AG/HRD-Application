@@ -9,7 +9,7 @@ import io
 # Database connection
 def get_db_connection():
     return mysql.connector.connect(
-        host="app",
+        host="127.0.0.1",
         user="app",
         password="qwEr!@#$09",
         database="employee_management"
